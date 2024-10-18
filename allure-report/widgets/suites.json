@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"9ca83feac04c6c0aa0e70af683164460","name":"Validate inventory page","statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1}},{"uid":"728044303bf2fb9f85437f2b05947c89","name":"should validate login functions","statistic":{"failed":0,"broken":0,"skipped":0,"passed":5,"unknown":0,"total":5}}]}

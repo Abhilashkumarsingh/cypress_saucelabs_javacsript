@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1726044849524' stop='1726044854914'>
+    <name>should validate login functions</name>
+    <title>should validate login functions</title>
+    <test-cases>
+        <test-case start='1726044849524' status='passed' stop='1726044851652'>
+            <name>validate login for username as standard_user and password as secret_sauce</name>
+            <title>validate login for username as standard_user and password as secret_sauce</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1726044851659' status='passed' stop='1726044852514'>
+            <name>validate login for username as jack_ryan and password as secret_sauce</name>
+            <title>validate login for username as jack_ryan and password as secret_sauce</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1726044852524' status='passed' stop='1726044853396'>
+            <name>validate login for username as standard_user and password as dark_vader</name>
+            <title>validate login for username as standard_user and password as dark_vader</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1726044853406' status='passed' stop='1726044854135'>
+            <name>validate login for username as  and password as secret_sauce</name>
+            <title>validate login for username as  and password as secret_sauce</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1726044854143' status='passed' stop='1726044854914'>
+            <name>validate login for username as standard_user and password as </name>
+            <title>validate login for username as standard_user and password as </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

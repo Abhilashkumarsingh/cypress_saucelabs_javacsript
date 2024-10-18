@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1726999011947' stop='1727000994233'>
+    <name>should validate login functions</name>
+    <title>should validate login functions</title>
+    <test-cases>
+        <test-case start='1726999011947' status='broken' stop='1727000989484'>
+            <name>validate login for username as standard_user and password as secret_sauce</name>
+            <title>validate login for username as standard_user and password as secret_sauce</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out after waiting `60000ms` for your remote page to load.
+                
+                Your page did not fire its `load` event within `60000ms`.
+                
+                You can try increasing the `pageLoadTimeout` value in `Users/abhilashsingh/Cypress_Javascript/cypress.config.js` to wait longer.
+                
+                Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+                
+                When this `load` event occurs, Cypress will continue running commands.</message>
+                <stack-trace>CypressError: Timed out after waiting `60000ms` for your remote page to load.
+                
+                Your page did not fire its `load` event within `60000ms`.
+                
+                You can try increasing the `pageLoadTimeout` value in `Users/abhilashsingh/Cypress_Javascript/cypress.config.js` to wait longer.
+                
+                Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+                
+                When this `load` event occurs, Cypress will continue running commands.
+                    at timedOutWaitingForPageLoad (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:130948:64)
+                    at &lt;unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:131264:16)
+                    at tryCatcher (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1807:23)
+                    at &lt;unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:4186:41)
+                    at tryCatcher (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1807:23)
+                    at Promise._settlePromiseFromHandler (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1519:31)
+                    at Promise._settlePromise (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1576:18)
+                    at Promise._settlePromise0 (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1621:10)
+                    at Promise._settlePromises (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1697:18)
+                    at _drainQueueStep (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2407:12)
+                    at _drainQueue (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2400:9)
+                    at Async._drainQueues (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2416:5)
+                    at Async.drainQueues (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2286:14)
+                From Your Spec Code:
+                    at Context.eval (webpack://cypress_javascript/./cypress/e2e/loginTest.cy.js:11:15)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1727000989589' status='passed' stop='1727000991628'>
+            <name>validate login for username as jack_ryan and password as secret_sauce</name>
+            <title>validate login for username as jack_ryan and password as secret_sauce</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1727000991641' status='passed' stop='1727000992518'>
+            <name>validate login for username as standard_user and password as dark_vader</name>
+            <title>validate login for username as standard_user and password as dark_vader</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1727000992528' status='passed' stop='1727000993294'>
+            <name>validate login for username as  and password as secret_sauce</name>
+            <title>validate login for username as  and password as secret_sauce</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1727000993305' status='passed' stop='1727000994233'>
+            <name>validate login for username as standard_user and password as </name>
+            <title>validate login for username as standard_user and password as </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

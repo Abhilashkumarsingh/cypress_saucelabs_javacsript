@@ -1,0 +1,221 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1726397771121' stop='1726400977120'>
+    <name>should validate login functions</name>
+    <title>should validate login functions</title>
+    <test-cases>
+        <test-case start='1726397771121' status='passed' stop='1726397774292'>
+            <name>validate login for username as standard_user and password as secret_sauce</name>
+            <title>validate login for username as standard_user and password as secret_sauce</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1726397774303' status='passed' stop='1726398791065'>
+            <name>validate login for username as jack_ryan and password as secret_sauce</name>
+            <title>validate login for username as jack_ryan and password as secret_sauce</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1726398791070' status='broken' stop='1726399830621'>
+            <name>validate login for username as standard_user and password as dark_vader</name>
+            <title>validate login for username as standard_user and password as dark_vader</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.visit()` failed trying to load:
+                
+                https://www.saucedemo.com/v1/index.html
+                
+                We attempted to make an http request to this URL but the request failed without a response.
+                
+                We received this error at the network level:
+                
+                  > Error: ESOCKETTIMEDOUT
+                
+                Common situations why this would fail:
+                  - you don't have internet access
+                  - you forgot to run / boot your web server
+                  - your web server isn't accessible
+                  - you have weird network configuration settings on your computer</message>
+                <stack-trace>CypressError: `cy.visit()` failed trying to load:
+                
+                https://www.saucedemo.com/v1/index.html
+                
+                We attempted to make an http request to this URL but the request failed without a response.
+                
+                We received this error at the network level:
+                
+                  > Error: ESOCKETTIMEDOUT
+                
+                Common situations why this would fail:
+                  - you don't have internet access
+                  - you forgot to run / boot your web server
+                  - your web server isn't accessible
+                  - you have weird network configuration settings on your computer
+                    at &lt;unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:131916:74)
+                    at visitFailedByErr (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:131315:12)
+                    at &lt;unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:131915:11)
+                    at tryCatcher (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1807:23)
+                    at Promise._settlePromiseFromHandler (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1519:31)
+                    at Promise._settlePromise (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1576:18)
+                    at Promise._settlePromise0 (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1621:10)
+                    at Promise._settlePromises (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1697:18)
+                    at _drainQueueStep (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2407:12)
+                    at _drainQueue (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2400:9)
+                    at Async._drainQueues (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2416:5)
+                    at Async.drainQueues (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2286:14)
+                From Your Spec Code:
+                    at Context.eval (webpack://cypress_javascript/./cypress/e2e/loginTest.cy.js:9:15)
+                
+                From Node.js Internals:
+                  Error: ESOCKETTIMEDOUT
+                      at ClientRequest.&lt;anonymous> (&lt;embedded>:420:106000)
+                      at Object.onceWrapper (node:events:628:28)
+                      at ClientRequest.emit (node:events:514:28)
+                      at TLSSocket.emitRequestTimeout (node:_http_client:847:9)
+                      at Object.onceWrapper (node:events:628:28)
+                      at TLSSocket.emit (node:events:526:35)
+                      at TLSSocket._onTimeout (node:net:571:8)
+                      at listOnTimeout (node:internal/timers:569:17)
+                      at process.processTimers (node:internal/timers:512:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1726399830641' status='broken' stop='1726400439532'>
+            <name>validate login for username as  and password as secret_sauce</name>
+            <title>validate login for username as  and password as secret_sauce</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.visit()` failed trying to load:
+                
+                https://www.saucedemo.com/v1/index.html
+                
+                We attempted to make an http request to this URL but the request failed without a response.
+                
+                We received this error at the network level:
+                
+                  > Error: ESOCKETTIMEDOUT
+                
+                Common situations why this would fail:
+                  - you don't have internet access
+                  - you forgot to run / boot your web server
+                  - your web server isn't accessible
+                  - you have weird network configuration settings on your computer</message>
+                <stack-trace>CypressError: `cy.visit()` failed trying to load:
+                
+                https://www.saucedemo.com/v1/index.html
+                
+                We attempted to make an http request to this URL but the request failed without a response.
+                
+                We received this error at the network level:
+                
+                  > Error: ESOCKETTIMEDOUT
+                
+                Common situations why this would fail:
+                  - you don't have internet access
+                  - you forgot to run / boot your web server
+                  - your web server isn't accessible
+                  - you have weird network configuration settings on your computer
+                    at &lt;unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:131916:74)
+                    at visitFailedByErr (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:131315:12)
+                    at &lt;unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:131915:11)
+                    at tryCatcher (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1807:23)
+                    at Promise._settlePromiseFromHandler (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1519:31)
+                    at Promise._settlePromise (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1576:18)
+                    at Promise._settlePromise0 (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1621:10)
+                    at Promise._settlePromises (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1697:18)
+                    at _drainQueueStep (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2407:12)
+                    at _drainQueue (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2400:9)
+                    at Async._drainQueues (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2416:5)
+                    at Async.drainQueues (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2286:14)
+                From Your Spec Code:
+                    at Context.eval (webpack://cypress_javascript/./cypress/e2e/loginTest.cy.js:9:15)
+                
+                From Node.js Internals:
+                  Error: ESOCKETTIMEDOUT
+                      at ClientRequest.&lt;anonymous> (&lt;embedded>:420:106000)
+                      at Object.onceWrapper (node:events:628:28)
+                      at ClientRequest.emit (node:events:514:28)
+                      at TLSSocket.emitRequestTimeout (node:_http_client:847:9)
+                      at Object.onceWrapper (node:events:628:28)
+                      at TLSSocket.emit (node:events:526:35)
+                      at TLSSocket._onTimeout (node:net:571:8)
+                      at listOnTimeout (node:internal/timers:569:17)
+                      at process.processTimers (node:internal/timers:512:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1726400439545' status='broken' stop='1726400977118'>
+            <name>validate login for username as standard_user and password as </name>
+            <title>validate login for username as standard_user and password as </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.visit()` failed trying to load:
+                
+                https://www.saucedemo.com/v1/index.html
+                
+                We attempted to make an http request to this URL but the request failed without a response.
+                
+                We received this error at the network level:
+                
+                  > Error: ESOCKETTIMEDOUT
+                
+                Common situations why this would fail:
+                  - you don't have internet access
+                  - you forgot to run / boot your web server
+                  - your web server isn't accessible
+                  - you have weird network configuration settings on your computer</message>
+                <stack-trace>CypressError: `cy.visit()` failed trying to load:
+                
+                https://www.saucedemo.com/v1/index.html
+                
+                We attempted to make an http request to this URL but the request failed without a response.
+                
+                We received this error at the network level:
+                
+                  > Error: ESOCKETTIMEDOUT
+                
+                Common situations why this would fail:
+                  - you don't have internet access
+                  - you forgot to run / boot your web server
+                  - your web server isn't accessible
+                  - you have weird network configuration settings on your computer
+                    at &lt;unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:131916:74)
+                    at visitFailedByErr (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:131315:12)
+                    at &lt;unknown> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:131915:11)
+                    at tryCatcher (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1807:23)
+                    at Promise._settlePromiseFromHandler (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1519:31)
+                    at Promise._settlePromise (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1576:18)
+                    at Promise._settlePromise0 (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1621:10)
+                    at Promise._settlePromises (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:1697:18)
+                    at _drainQueueStep (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2407:12)
+                    at _drainQueue (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2400:9)
+                    at Async._drainQueues (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2416:5)
+                    at Async.drainQueues (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:2286:14)
+                From Your Spec Code:
+                    at Context.eval (webpack://cypress_javascript/./cypress/e2e/loginTest.cy.js:9:15)
+                
+                From Node.js Internals:
+                  Error: ESOCKETTIMEDOUT
+                      at ClientRequest.&lt;anonymous> (&lt;embedded>:420:106000)
+                      at Object.onceWrapper (node:events:628:28)
+                      at ClientRequest.emit (node:events:514:28)
+                      at TLSSocket.emitRequestTimeout (node:_http_client:847:9)
+                      at Object.onceWrapper (node:events:628:28)
+                      at TLSSocket.emit (node:events:526:35)
+                      at TLSSocket._onTimeout (node:net:571:8)
+                      at listOnTimeout (node:internal/timers:569:17)
+                      at process.processTimers (node:internal/timers:512:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
